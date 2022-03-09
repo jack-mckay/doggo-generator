@@ -1,0 +1,52 @@
+.button {
+  padding: .5rem 1rem;
+  min-width: 3rem;
+  border: 1px solid $lightgrey;
+  display: inline-block;
+  cursor: pointer;
+  margin: .25rem .5rem .25rem 0;
+  border-radius: .5rem;
+
+  &.selected {
+    background: $lightergrey;
+    color: $darkgrey;
+  }
+
+  &.incorrect {
+    background: #F8BCBC;
+    border-color: #F8BCBC;
+    color: $darkgrey;
+  }
+
+  &.correct {
+    background: #94D7A2;
+    border-color: #94D7A2;
+    color: $darkgrey;
+  }
+
+  &.disabled {
+    opacity: .5;
+    cursor: not-allowed;
+  }
+}
+
+.submit-button {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  min-width: 160px;
+  margin: 1rem auto;
+  display: block;
+  font-size: 1rem;
+  padding: .75em 1em;
+  line-height: 1;
+  background-color: mediumpurple;
+  border-color: mediumpurple;
+  min-height: 3rem;
+
+  &:hover {
+    background-color: darken(mediumpurple, 5%);
+  }
+}
