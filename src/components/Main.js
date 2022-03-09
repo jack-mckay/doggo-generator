@@ -40,7 +40,7 @@ const Main = () => {
 		})
 			.then((dataUrl) => {
 				const link = document.createElement('a')
-				link.download = 'woof.jpeg'
+				link.download = 'woof.jpg'
 				link.href = dataUrl
 				link.click()
 			})

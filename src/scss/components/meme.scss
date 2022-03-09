@@ -79,10 +79,14 @@
   top: 0;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  padding: 1rem;
-  width: 100%;
-  display: flex;
+.dark {
+  .form-input {
+    border: 1px solid #FFF;
+    background: transparent;
+    text-indent: 5px;
+    color: #FFFFFF;
+  }
+  
+
+
 }

@@ -1,11 +1,14 @@
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .toggler {
   display: flex;
   align-items: center;
+  position: absolute;
+  right: 0;
 
   p {
     font-size: 0.625rem;
